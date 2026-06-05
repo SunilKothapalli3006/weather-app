@@ -1,0 +1,74 @@
+.card{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 2%;
+    padding-top: 2%;
+    /* height: 12vh; */
+    background: linear-gradient(124deg,rgba(137, 245, 200, 1) 14%, rgba(178, 168, 237, 1) 75%) !important;
+    border-radius: 15px !important;
+    box-shadow: none !important;
+}
+
+.outerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.innerDiv{
+    width: 40px;
+    height: 40px;
+    background-color: #eaebec7c;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.outerDivTwo{
+    display: flex;
+    flex-direction: column;
+}
+
+.outerDiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.mainWeather{
+    margin-top: 4%;
+    text-align: center;
+}
+
+.weatherImage{
+    width: 130px;
+    height: 130px;
+}
+
+.humidity{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.humidityImg, .windImg{
+    width: 30px;
+    height: 30px;
+    padding-top: 7%;
+}
+
+.wind{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+
+.innerHumidity, .innerWind{
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
