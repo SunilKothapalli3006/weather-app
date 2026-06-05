@@ -62,9 +62,11 @@ const WeatherComponent = () => {
             }}>
                 <div>
                     <div className={styles.outerDiv}>
-                        <div>
+                        <div style={{
+                            width: '85%'
+                        }}>
                             <TextField sx={{
-                                width: 290,
+                                width: "100%",
                                 "& .MuiOutlinedInput-root": {
                                     height: 40,
                                     borderRadius: '60px',
@@ -82,8 +84,8 @@ const WeatherComponent = () => {
                                 checkWeather();
                             }
                         }}>
-                            <LuSearch size={16} color="grey" style={{
-                                marginTop: '10px'
+                            <LuSearch size={14} color="grey" style={{
+                                marginTop: '32%'
                             }}/>
                         </div>
                     </div>
